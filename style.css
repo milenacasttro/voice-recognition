@@ -45,3 +45,19 @@ h3 {
     padding: 10px;
     margin: 20px;
 }
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: none;
+    background: --var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;;
+    font-family: var(--font-family);
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.btn-jogar:hover {
+    background-color: #FFFBDE;
+    color: var(--bg-color);
+}
