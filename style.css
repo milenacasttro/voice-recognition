@@ -23,6 +23,11 @@ h1 {
     font-size: 5em;
 }
 
+h2 {
+    font-size: 4em;
+    margin: 0.5em 0;
+}
+
 h3 {
     font-size: 2em;
     margin: 0.5em 0;
