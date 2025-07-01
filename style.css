@@ -49,7 +49,7 @@ h3 {
 .btn-jogar {
     padding: 8px 15px;
     border: none;
-    background: --var(--primary-color);
+    background: var(--primary-color);
     border-radius: 5px;
     margin-top: 20px;;
     font-family: var(--font-family);
