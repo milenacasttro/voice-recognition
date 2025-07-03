@@ -9,6 +9,12 @@ recognition.start();
 
 recognition.addEventListener('result', onSpeak);
 
+function falar(texto) {
+    const utterance = new SpeechSynthesisUtterance(texto);
+    utterance.lang = 'pt-BR';
+    speechSynthesis.speak(utterance);
+}
+
 function onSpeak(e) {
     chute = e.results[0][0].transcript;
     exibeChuteNaTela(chute);
